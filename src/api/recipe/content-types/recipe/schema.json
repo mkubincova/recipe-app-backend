@@ -37,6 +37,15 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "recipes"
+    },
+    "cookTimeMinutes": {
+      "type": "integer"
+    },
+    "cookTemperature": {
+      "type": "integer"
+    },
+    "portions": {
+      "type": "decimal"
     }
   }
 }
