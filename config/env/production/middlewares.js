@@ -6,7 +6,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['http://localhost:3000', 'https://recipe-app-backend-production.up.railway.app']
+      origin: ['http://localhost:3000', 'https://recipe-app-backend-production.up.railway.app', 'https://recipe-app-frontend-iota.vercel.app']
     }
   },
   'strapi::poweredBy',
