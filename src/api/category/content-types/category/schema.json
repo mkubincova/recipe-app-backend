@@ -21,6 +21,23 @@
       "relation": "manyToMany",
       "target": "api::recipe.recipe",
       "mappedBy": "categories"
+    },
+    "theme_color": {
+      "type": "enumeration",
+      "enum": [
+        "grey",
+        "pink",
+        "red",
+        "orange",
+        "yellow",
+        "green",
+        "blue",
+        "purple",
+        "brown",
+        "black"
+      ],
+      "required": true,
+      "default": "grey"
     }
   }
 }
